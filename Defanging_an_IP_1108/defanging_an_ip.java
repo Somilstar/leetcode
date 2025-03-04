@@ -1,0 +1,8 @@
+package Defanging_an_IP_1108;
+
+
+class Solution {
+    public String defangIPaddr(String address) {
+       return address.replace(".","[.]");
+    }
+}
