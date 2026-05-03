@@ -7,7 +7,6 @@ class Solution {
             char ch = s[start];
             s[start] = s[end];
             s[end] = ch;
-
             start++;
             end--;
         }
