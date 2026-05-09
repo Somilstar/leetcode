@@ -12,7 +12,6 @@
 public class Solution {
     public ListNode getIntersectionNode(ListNode headA, ListNode headB) {
         if(headA==null || headB==null) return null;
-
         ListNode ptrA = headA;
         ListNode ptrB = headB;
         while(ptrA!=ptrB){
@@ -26,7 +25,6 @@ public class Solution {
             }else{
                 ptrB = ptrB.next;
             }
-
         }
         return ptrA;
     }
